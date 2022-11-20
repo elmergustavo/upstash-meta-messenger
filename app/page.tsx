@@ -1,8 +1,19 @@
 import React from 'react'
+import ChatInput from './ChatInput'
+import MessageList from './MessageList'
 
 function HomePage() {
   return (
-    <div className='font-bold '>HomePage</div>
+   <main>
+    {/* MessageList */}
+
+    <MessageList />
+
+    {/* ChatInput */}
+
+    <ChatInput />
+
+   </main>
   )
 }
 
